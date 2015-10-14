@@ -1,0 +1,159 @@
+body {
+  background-color: #DAF2EF;
+  color: grey;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.masthead {
+  padding: 8em 1.3em;
+  background-image: url('https://unsplash.imgix.net/photo-1428677361686-f9d23be145c9?fit=crop&fm=jpg&h=700&q=75&w=1050');
+  background-size: cover;
+}
+
+#masthead-heading {
+  font-weight: 300;
+  letter-spacing: .1em;
+  font-size: 4.6em;
+  text-transform: uppercase;
+  color: white;
+}
+
+#heading {
+  text-align: center;
+  color: white;
+  margin-top: -.5em;
+  margin-right: .5em;
+  margin-left: .5em;
+  font-family: 'Roboto', sans-serif;
+  background: rgba(112,112,112,.7);
+  text-transform: uppercase;
+  padding: 1em;
+  letter-spacing: .3em;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+.quote h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+  clear: both;
+  text-align: center;
+  font-style: italic;
+  background-color: white;
+  padding: .5em 0;
+  color: lightgrey;
+}
+
+#profpic {
+  height: 7em;
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.socialprofiles {
+  background: #85ADAD;
+  margin: 2em 0 5em 0;
+  clear: both;
+}
+
+.icons > li {
+  display: inline-block;
+  padding: 1em;
+  margin: 1.5em 1em 1.5em .5em;
+  background: white;
+  border-radius: 100%;
+  height: 1em;
+  width: 1em;
+  border: 1px solid #85ADAD;
+}
+
+.icons {
+  padding-left: 0;
+  text-align: center;
+}
+
+.icons > li:hover {
+  cursor: pointer;
+}
+
+.twitter a:visited, .twitter a:link {
+  color: #55acee;
+}
+
+.icons > .twitter:hover {
+  background: #55acee;
+}
+
+.linkedin a:visited, .linkedin a:link {
+  color: #007bb5;
+}
+
+.icons > .linkedin:hover {
+  background: #007bb5;
+}
+
+.github a:visited, .github a:link {
+  color: #4c9ad6;
+}
+
+.icons > .github:hover {
+  background: #4c9ad6;
+}
+
+.bio {
+  background-color: #002E3D;
+  margin-top: -2.5em;
+  padding: .5em 0;
+  letter-spacing: .3em;
+}
+
+.bio h3 {
+  font-family: 'Roboto';
+  font-weight: 300;
+  color: lightgrey;
+}
+
+.bio > p {
+  font-size: .8em;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: lightgrey;
+  display: inline;
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.bio > .backgroundinfo {
+  color: grey;
+}
+
+.bio .aboutme {
+  color: grey;
+  display: block;
+  margin: 1em;
+  padding: 0 20em
+}
+
+
+.githubprojects {
+  background: grey;
+  padding: 1.5em 0 3em 0;
+  margin: 2.5em 0 3em 0;
+}
+
+.githubprojects h3 {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 300;
+  letter-spacing: .25em;
+}
+
+.gitlinks > li {
+  display: inline-block;
+  padding: 1.5em 1.5em;
+}
